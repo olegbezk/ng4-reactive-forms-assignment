@@ -9,7 +9,6 @@ import {CustomValidators} from "./custom.validators";
 })
 export class AppComponent implements OnInit {
     projectForm:FormGroup;
-    statuses:string[] = ['stable', 'critical', 'finished'];
 
     ngOnInit() {
         this.projectForm = new FormGroup({
