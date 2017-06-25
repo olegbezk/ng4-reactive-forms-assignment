@@ -8,7 +8,7 @@ import {CustomValidators} from "./custom.validators";
     styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-    projectForm:FormGroup;
+    projectForm: FormGroup;
 
     ngOnInit() {
         this.projectForm = new FormGroup({
